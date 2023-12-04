@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" sizes="48x48" type="imagenes" href="/img/logo.png" />
+    <title>Sitio de películas</title>
+</head>
+<body>
+    <div class="logo">
+        <img src="/img/logo.png" alt="logo">
+        <h1>Bienvenidxs. A las Películas más Populares.</h1>
+    </div>
+    
+	<div class="busqueda-container">
+		<input type="text" id="inputBusqueda" class="inputBusqueda" placeholder="Buscar películas...">
+		<button id="btnBuscar" class="btnBuscar">Buscar</button>
+	</div>
+	
+    <div id="contenedor" class="contenedor"></div>
+
+    <div class="paginacion">
+        <button id="btnAnterior">Anterior</button>
+        <button id="btnSiguiente">Siguiente</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

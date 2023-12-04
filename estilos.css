@@ -1,0 +1,156 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #e0e0e0;
+	color: #1d1d1d;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: 40px auto 100px auto;
+
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+}
+
+.contenedor .pelicula {
+	text-align: center;
+}
+
+.contenedor .pelicula .titulo {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.contenedor .pelicula .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+}
+
+.paginacion {
+	position: fixed;
+	bottom: 0;
+	background: #26105d;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #173f44;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #16cada;
+}
+/* Agrega estilos para el botón de búsqueda */
+.btnBuscar {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 38px;
+    width: 200px;
+    background: #173f44;
+    color: #fff;
+    border-radius: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: .3s ease all;
+}
+
+.btnBuscar:hover {
+    background: #16cada;
+}
+/* Estilos para el input de búsqueda */
+.inputBusqueda {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de búsqueda */
+.btnBuscar {
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 38px;
+    width: 30%;
+    background: #173f44;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: .3s ease all;
+}
+
+.btnBuscar:hover {
+    background: #16cada;
+}
+
+.busqueda-container {
+    display: flex; 
+    align-items: center;
+    width: 70%; 
+    margin: 0 auto; 
+}
+
+/* Estilos para el input de búsqueda */
+.inputBusqueda {
+    flex: 1; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de búsqueda */
+.btnBuscar {
+    cursor: pointer;
+    border: none;
+    height: 38px;
+    background: #173f44;
+    color: #fff;
+    border-radius: 0 25px 28px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    transition: .3s ease all;
+    -webkit-border-radius: 0 25px 28px 0;
+    -moz-border-radius: 0 25px 28px 0;
+    -ms-border-radius: 0 25px 28px 0;
+    -o-border-radius: 0 25px 28px 0;
+}
+
+.btnBuscar:hover {
+    background: #16cada;
+}
